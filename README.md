@@ -17,4 +17,7 @@
     ## Usage
 
     Execute the script run.sh.
+    The graph is created as a png file named sorting_plot.png.
+
+    ![graph](sorting_plot.png)
 
