@@ -5,7 +5,8 @@
     ## Contents
 
     There are 3 C++ programs: heapsort.cpp, quicksort.cpp and mergesort.cpp.
-    There is a bash script run.sh.
+    There are 3 C++ programs: gen_normal_random.cpp, gen_uniform_random.cpp and gen_worst_case.cpp
+    There is a bash script run.sh which runs the programs against the inputs and gives the graphs with normal distributed inputs, uniform distributed inputs and worst case inputs.
 
     ## Prerequisites
     
@@ -17,7 +18,11 @@
     ## Usage
 
     Execute the script run.sh.
-    The graph is created as a png file named sorting_plot.png.
+    Three graphs are generated: 1) With Uniform distribution inputs 2) With Normal Distribution inputs 3) With Worst Case Inputs.
 
-    ![graph](sorting_plot.png)
+    ## Result 
 
+    We can see that with normal and uniform distributed inputs Quicksort performs better in average O(nlogn) than Heapsort and Mergesort, also (nlogn).
+    With Worst Case Inputs Quicksort performs worse with O(n^2).
+    
+    
